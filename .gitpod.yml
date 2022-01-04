@@ -3,6 +3,7 @@ tasks:
   - init: |
       go get github.com/spf13/cobra/cobra
       go build
+      apt install zsh
     command: |
       ./mycli --help
 vscode:
